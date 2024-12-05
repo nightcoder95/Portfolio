@@ -38,8 +38,8 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/my-portfolio.git
-   cd my-portfolio
+   git clone https://github.com/nightcoder95/Portfolio.git
+   cd portfolio
    ```
 
 2. **Install Dependencies**:
@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
    ```
 
 4. **Open in Browser**:
-   Open your browser and navigate to `http://localhost:3000` to view the portfolio.
+   Open your browser and navigate to `http://localhost:5173` to view the portfolio.
 
 ## Usage
 
@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or want to get in touch, feel free to reach out to me at [your-email@example.com](mailto:your-email@example.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile) or follow me on [GitHub](https://github.com/yourusername).
+If you have any questions or want to get in touch, feel free to reach out to me at [bharathariag15@example.com](mailto:bharathariag15@example.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/bharat-harikumar) or follow me on [GitHub](https://github.com/nightcoder95).
 
 ---
 
