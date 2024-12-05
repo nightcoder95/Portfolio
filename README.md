@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or want to get in touch, feel free to reach out to me at [bharathariag15@example.com](mailto:bharathariag15@example.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/bharat-harikumar) or follow me on [GitHub](https://github.com/nightcoder95).
+If you have any questions or want to get in touch, feel free to reach out to me at [bharathariag15@gmail.com](mailto:bharathariag15@gmail.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/bharat-harikumar) or follow me on [GitHub](https://github.com/nightcoder95).
 
 ---
 
