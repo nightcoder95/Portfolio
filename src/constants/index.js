@@ -78,17 +78,19 @@ import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a strong background in web technologies and data management. With professional experience in law enforcement and technology, I have honed my skills in technologies like Python, Django, React, and Node.js. My goal is to leverage my expertise to create innovative, efficient solutions that drive operational effectiveness and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `As a versatile full stack developer, my journey is driven by an insatiable curiosity and a proactive problem-solving mindset. Beyond my technical role, I'm passionate about continuous learning and personal growth. My background in mechanical engineering reflects my analytical approach to challenges, allowing me to bring a unique perspective to technology and innovation.
-I thrive in collaborative environments, consistently seeking opportunities to expand my skills and contribute meaningfully to team objectives. My adaptability and results-oriented approach extend beyond professional settings, as I'm always eager to explore new technologies and contribute to open-source projects.
-While my professional life is centered around technology, I believe in maintaining a balanced lifestyle. I enjoy staying active and continuously challenging myself to learn and grow, both professionally and personally. My approach to life is marked by a strong sense of dedication, whether I'm solving complex technical problems or pursuing personal interests.`;
+export const ABOUT_TEXT = `Hi, I’m Bharat H! I started my journey as a Mechanical Engineering graduate, diving into data analytics in my first job. Life took a surprising twist when I joined the Kerala Police, where I wore multiple hats—serving in law enforcement while contributing to innovative tech projects that streamlined workflows and boosted efficiency.\n
+
+Along the way, I discovered my true passion for technology and problem-solving, which led me to transition into the world of software development. Now, I’m focused on building web applications that make a difference, blending creativity with functionality.\n
+
+Outside of work, I’m all about learning new things, spending time with family, and exploring hobbies that keep me inspired.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
     role: "Senior Civil Police Officer / Full Stack Developer",
     company: "Kerala Police, Technical Intelligence Wing",
-    description: "Led development of secure data management applications, including an AI-powered investigation tool. Collaborated on MERN stack data logging app that reduced manual data entry by 80% and improved investigative capabilities by 30%.",
-    technologies: ["Python", "Django", "JavaScript", "ReactJS", "MongoDB", "AI Technologies"],
+    description: "Developed secure data management applications using MERN stack and Python/Django, streamlining data processing and investigative workflows. Led the development of a data logging system that reduced manual entry by 80% and enhanced data retrieval efficiency. Worked on data analytics solutions, improving reporting and decision-making processes.",
+    technologies: ["Python", "Django", "JavaScript", "MERN", "HTML", "CSS", "TailwindCSS"],
   },
   {
     year: "2021 - 2023",
@@ -133,9 +135,9 @@ export const PROJECTS = [
     technologies: ["NextJS", "JavaScript", "React"],
   },
   {
-    title: "Fitness Tracking App",
+    title: "Expense Tracking App",
     image: project4,
-    description: "Full-stack application for tracking fitness metrics and user progress.",
+    description: "Full-stack application for tracking daily expenses.",
     technologies: ["MongoDB", "Express", "React", "Node.js"],
   }
 ];

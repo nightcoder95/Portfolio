@@ -32,7 +32,7 @@ const Projects = () => {
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4">
-              <h3 className="mb-2 text-2xl font-semibold">{project.title}</h3>
+              <h3 className="mb-2 text-2xl font-semibold">{project.title} <span className="text-xs text-stone-400">(links will be updated soon..)</span></h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
               {/* Ensure technologies wrap properly */}
               <div className="flex flex-wrap gap-2">

@@ -2,12 +2,25 @@ import React from "react";
 import profilePic from "../assets/bharat.webp";
 import { HERO_CONTENT } from "../constants/index.js";
 import { motion } from "motion/react";
+import { TypeAnimation } from "react-type-animation";
 
 // We will create a default function for the motion animation with its values and will use that function inside tags by passing necessary delay as function parameters
 const animateMotion = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } },
 });
+
+// Function for typing Animation
+const typingAnimation = {
+  initial: { width: 0 },
+  animate: {
+    width: "100%",
+    transition: {
+      duration: 3,
+      ease: "linear",
+    },
+  },
+};
 
 const Hero = () => {
   return (
@@ -27,13 +40,20 @@ const Hero = () => {
 
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center mt-6 lg:items-start">
-              <motion.h2
-                variants={animateMotion(0)}
-                initial="hidden"
-                animate="visible"
+              {/* <motion.h2
+                variants={typingAnimation}
+                initial="initial"
+                animate="animate"
                 className="pb-16 text-6xl font-thin tracking-tight lg:text-8xl lg:mt-16">
                 Bharat Harikumar
-              </motion.h2>
+              </motion.h2> */}
+              <TypeAnimation
+                sequence={["Bharat Harikumar", 1000, " ", 1000]}
+                speed={50}
+                repeat={Infinity}
+                className="pb-16 text-6xl font-thin tracking-tight lg:text-8xl lg:mt-16"
+        
+              />
               <motion.p
                 variants={animateMotion(0.5)}
                 initial="hidden"
